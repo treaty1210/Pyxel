@@ -15,3 +15,4 @@ class App:
         pyxel.text(70, 60, "Start", pyxel.COLOR_BLACK)
         pyxel.text(70, 50, "Quit", pyxel.COLOR_BLACK)
         
+App()
