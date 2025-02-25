@@ -8,3 +8,7 @@ class App:
     def update(self):
         if pyxel.btnp(pyxel.KEY_ESCAPE):
             pyxel.quit()
+
+    def draw(self):
+        pyxel.cls(pyxel.COLOR_LIME)
+        pyxel.text(70, 60, "Start", pyxel.COLOR_BLACK)
